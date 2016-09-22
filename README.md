@@ -1,0 +1,5 @@
+This repo contains the R scripts to perform differentially private hypothesis tests based on the work from Marco Gaboardi, Hyun woo Lim, Ryan Rogers, and Salil Vadhan entitled "Differentially Private Chi-Squared Hypothesis Testing: Goodness of Fit and Independence Testing" published in ICML 2016 [GLRV16].  The tests in this repo are the tests based on the asymptotic based tests from [GLRV16] for both goodness of fit testing and independence testing for contingency tables with r rows and c columns.  There is also a script so that you can run the tests with simulated data to get a returned p-value.  
+
+You will need to uncomment the install.packages() commands for the initial run so that you have all the necessary packages, but then you will just need to run the library() commands each time you open R.    
+
+This was work done primarily at the Privacy Tools for Sharing Research Data project at Harvard University in the Summer of 2015.    
